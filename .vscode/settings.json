@@ -15,5 +15,7 @@
   "files.associations": {
     "*.dbclient-js": "javascript",
     "event_groups.h": "c"
-  }
+  },
+  "idf.espIdfPath": "/home/wachcio/esp/v5.5.1/esp-idf",
+  "idf.toolsPath": "/home/wachcio/.espressif"
 }
