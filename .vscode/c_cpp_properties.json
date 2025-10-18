@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/wachcio/esp/v5.5.1/esp-idf/components/**",
+                "/home/wachcio/esp/v5.5.1/esp-idf/components/freertos/FreeRTOS-Kernel/include"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/home/wachcio/esp/v5.5.1/esp-idf/components"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

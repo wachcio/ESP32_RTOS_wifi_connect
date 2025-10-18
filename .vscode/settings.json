@@ -1,0 +1,19 @@
+{
+  "idf.pythonInstallPath": "/home/wachcio/.espressif/python_env/idf5.5_py3.13_env/bin/python",
+  "idf.monitorPort": "/dev/ttyUSB0",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "clangd.path": "/home/wachcio/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=/home/wachcio/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
+    "--compile-commands-dir=/home/wachcio/esp/Projekty/blink-led/build"
+  ],
+  "idf.flashType": "UART",
+  "idf.port": "/dev/ttyUSB0",
+  "files.associations": {
+    "*.dbclient-js": "javascript",
+    "event_groups.h": "c"
+  }
+}

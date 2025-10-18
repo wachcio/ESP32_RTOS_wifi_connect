@@ -1,0 +1,37 @@
+# Kompilacja / Build
+build/
+build_/
+_build/
+[Bb]uild*/        # różne warianty katalogów build
+
+# Konfiguracja generowana automatycznie
+sdkconfig
+sdkconfig.old
+!sdkconfig.defaults  # zachowaj domyślną konfigurację
+
+# Komponenty zarządzane automatycznie przez IDF Component Manager
+managed_components/
+dependencies.lock
+
+# Cache i środowisko Pythona
+__pycache__/
+.pytest_cache/
+pytest_embedded_log/
+__installed_packages/
+
+# IDE i logi
+#.vscode/
+.idea/
+*.code-workspace
+debug.log
+*.gdb
+*.log
+
+# Pliki pomocnicze i tymczasowe
+dist/
+*.bin
+*.elf
+*.map
+
+
+.env
