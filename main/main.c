@@ -13,8 +13,8 @@ extern void tcp_server_task(void *pvParameter);
 void init_gpio(void)
 {
     gpio_reset_pin(BLINK_LED);
-    gpio_set_direction(BLINK_LED, GPIO_MODE_OUTPUT);
-    gpio_set_level(BLINK_LED, 1); // LED off (active low)
+    gpio_set_direction(BLINK_LED, GPIO_MODE_INPUT_OUTPUT);
+    gpio_set_level(BLINK_LED, 0); // LED off (active high)
 }
 
 void app_main(void)
